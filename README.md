@@ -20,7 +20,7 @@ From now on, to open a Sublime Text 2 project you can use this shortcut:
     
 ## Examples
 
-#### Example 1 - Keep project files inside project directories
+#### Example 1 - Keep .sublime-project files inside project directories
 
     $ cd ~/workspace
     $ tree .
@@ -34,7 +34,7 @@ From now on, to open a Sublime Text 2 project you can use this shortcut:
     $ cd project-a
     $ sublp
 
-#### Example 2 - Keep project files outside project directories
+#### Example 2 - Keep .sublime-project files outside project directories
 
     $ cd ~/workspace
     $ tree .
