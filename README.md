@@ -1,7 +1,7 @@
 Sublime Text Projects
 ================
 
-Automatically open a project from the command line by passing the .sublime-project file as an argument to the Sublime Text executable
+Open a project from the command line by automatically passing the .sublime-project file as an argument to the Sublime Text executable.
 
 ## Installation
 
