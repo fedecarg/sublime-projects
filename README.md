@@ -1,7 +1,6 @@
-Sublime Text Projects
-================
+## Opening Sublime Text projects from the command line
 
-Open a project from the command line by automatically passing the .sublime-project file as an argument to the Sublime Text executable.
+Sublime Text 2 includes a command line tool to work with files and directories on the command line, however, opening projects files takes more keystrokes. To solve this problem I've created a simple bash script that works well for me. It opens a project from the command line by automatically passing the .sublime-project file as an argument to the Sublime Text executable. I thought I'd share it just in case someone else might find it useful.
 
 ## Installation
 
@@ -20,7 +19,7 @@ From now on, to open a Sublime Text 2 project you can use this shortcut:
     
 ## Examples
 
-#### Example 1 - Keep .sublime-project files inside project directories
+#### Keep .sublime-project files inside project directories
 
     $ cd ~/workspace
     $ tree .
@@ -34,7 +33,7 @@ From now on, to open a Sublime Text 2 project you can use this shortcut:
     $ cd project-a
     $ sublp
 
-#### Example 2 - Keep .sublime-project files outside project directories
+#### Keep .sublime-project files outside project directories
 
     $ cd ~/workspace
     $ tree .
