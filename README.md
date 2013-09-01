@@ -14,7 +14,7 @@ Create a shortcut by adding the following lines to .bash_profile:
     alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
     alias sublp="/path/to/sublp.sh"
         
-Save the file, then either quit and relaunch Terminal, or refresh the changes by typing:
+Save the file, then refresh the changes by typing:
 
     $ source ~/.bash_profile
 
@@ -24,7 +24,7 @@ From now on, to open a Sublime Text 2 project you can use this shortcut:
     
 ## Examples
 
-#### Keep .sublime-project files inside project directories
+**Example 1** - Keep .sublime-project files inside project directories
 
     $ cd ~/workspace
     $ tree .
@@ -38,7 +38,7 @@ From now on, to open a Sublime Text 2 project you can use this shortcut:
     $ cd project-a
     $ sublp
 
-#### Keep .sublime-project files outside project directories
+**Example 2** - Keep .sublime-project files outside project directories
 
     $ cd ~/workspace
     $ tree .
