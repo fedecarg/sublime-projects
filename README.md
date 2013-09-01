@@ -4,7 +4,12 @@ Sublime Text 2 includes a command line tool to work with files and directories o
 
 ## Installation
 
-Sublime Text 2 comes with a command line tool that you can use to quickly open projects and files from your Terminal window. For convenience you should create a shortcut by adding the following lines to .bash_profile:
+Download the script:
+
+    $ curl https://raw.github.com/fedecarg/sublime-projects/master/sublp.sh >> sublp.sh
+    $ chmod 700 sublp.sh
+    
+Create a shortcut by adding the following lines to .bash_profile:
 
     alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
     alias sublp="/path/to/sublp.sh"
