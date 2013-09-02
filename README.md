@@ -4,20 +4,20 @@ Sublime Text 2 includes a command line tool to work with files and directories o
 
 ## Installation
 
+Make a symlink to subl:
+
+    $ sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+    
 Download the script:
 
     $ curl https://raw.github.com/fedecarg/sublime-projects/master/sublp.sh >> sublp.sh
     $ chmod 700 sublp.sh
-    
-Make a symlink to subl:
-
-    $ sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 Create an alias by adding the following line to .bash_profile:
 
     alias sublp="/path/to/sublp.sh"
         
-Save the file, then refresh the changes by typing:
+Save the file and refresh the changes by typing:
 
     $ source ~/.bash_profile
 
