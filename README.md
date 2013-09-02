@@ -52,6 +52,19 @@ From now on, to open a Sublime Text 2 project you can use this shortcut:
     ├── project-a.sublime-project
     ├── project-b.sublime-project
     └── project-c.sublime-project
+    $ sublp project-a
+    
+**Example 3** - List all project files
+
+    $ cd ~/workspace
+    $ tree .
+    .
+    ├── project-a
+    ├── project-b
+    ├── project-c
+    ├── project-a.sublime-project
+    ├── project-b.sublime-project
+    └── project-c.sublime-project
     $ sublp
     Enter the number of the project you want to open:
     1) project-a.sublime-project  
