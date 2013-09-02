@@ -9,9 +9,12 @@ Download the script:
     $ curl https://raw.github.com/fedecarg/sublime-projects/master/sublp.sh >> sublp.sh
     $ chmod 700 sublp.sh
     
-Create a shortcut by adding the following lines to .bash_profile:
+Make a symlink to subl:
 
-    alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+    $ sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+
+Create an alias by adding the following line to .bash_profile:
+
     alias sublp="/path/to/sublp.sh"
         
 Save the file, then refresh the changes by typing:
