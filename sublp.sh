@@ -2,7 +2,7 @@
 
 if [ "${1}" ] && [ -f "${1}.sublime-project" ]; then
     subl --project "${1}.sublime-project"
-    exit 1
+    exit 0
 fi
 
 COUNT=$(ls *.sublime-project 2>/dev/null | wc -l)
