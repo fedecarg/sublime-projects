@@ -2,8 +2,8 @@
 
 Sublime Text 2 includes a command line tool to work with files and directories on the command line, however, opening projects files and typing in long commands and file paths can get tedious pretty quickly. To solve this problem I've created a simple bash script that works well for me. It opens a project from the command line by automatically passing the .sublime-project file as an argument to the Sublime Text executable. 
 
-I thought I'd share it just in case someone else might find it useful.
-
+I thought I'd share in case anyone else need this. 
+ 
 ## Installation
 
 Make a symlink to subl:
